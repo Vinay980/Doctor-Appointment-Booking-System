@@ -45,9 +45,13 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application for m
 ## 📁 Folder Structure
 
 Doctor-Appointment-Booking-System/
+
 ├── frontend/ # React Frontend
+
 ├── backend/ # Express + MongoDB Backend
+
 └── README.md
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -58,24 +62,34 @@ Doctor-Appointment-Booking-System/
    cd Doctor-Appointment-Booking-System
 
 2. **Install dependencies**
-**Frontend**
-cd frontend
-npm install
+
+   **Frontend**
+
+   cd frontend
+
+   npm install
 
 **Backend**
-cd ../backend
-npm install
+
+   cd ../backend
+   npm install
 
 3. **Setup environment variables**
-Create a .env file in the backend/ directory:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+   
+   **Create a .env file in the backend/ directory:**
+   
+   MONGO_URI=your_mongodb_connection_string
+   
+   JWT_SECRET=your_jwt_secret_key
 
 4. **Start development servers**
-Start Backend
-cd backend
-npm start
 
-Start Frontend
-cd frontend
-npm run dev
+   **Start Backend**
+   
+   cd backend
+   npm start
+   
+   **Start Frontend**
+   
+   cd frontend
+   npm run dev
