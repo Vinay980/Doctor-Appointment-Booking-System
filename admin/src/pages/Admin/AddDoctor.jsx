@@ -12,7 +12,7 @@ function AddDoctor() {
   const [speciality,setSpeciality] = useState('General Physician')
   const [degree,setDegree] = useState('')
   const [address1,setAddress1] = useState('')
-  const [address2,setAddress2] = useState('')
+  const [address2,setAddress2] = useState('') 
 
   const onSubmitHandler = async (event) =>{
     event.preventDefault()
