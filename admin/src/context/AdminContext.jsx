@@ -6,7 +6,7 @@ const AdminContextProvider = (props) => {
 
     const [aToken, setAToken] = useState(localStorage.getItem('aToken') || '');
 
-    const backEndUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = import.meta.env.VITE_BACKEND_URL
 
     useEffect(() => {
     if (aToken) {
@@ -18,7 +18,7 @@ const AdminContextProvider = (props) => {
 
     const value = {
         aToken, setAToken,
-        backEndUrl
+        backendUrl
     }
     return (
         <AdminContext.Provider value={value}>
